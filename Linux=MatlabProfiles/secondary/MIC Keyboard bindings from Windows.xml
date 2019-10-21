@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomKeySet derivedfrom="Windows" modifieddefault="false">
+   <Context id="Global">
+      <Action id="change-current-folder">
+         <Stroke code="VK_F4"/>
+      </Action>
+      <Action id="caret-end-line">
+         <Stroke code="VK_END"/>
+         <Stroke alt="on" code="VK_S" ctrl="on"/>
+         <Stroke code="VK_S" ctrl="on" meta="on"/>
+         <Stroke code="VK_DOWN" ctrl="on"/>
+         <Stroke code="VK_KP_DOWN" ctrl="on"/>
+      </Action>
+      <Action id="jump-list-prev">
+         <Stroke alt="on" code="VK_PAGE_DOWN" ctrl="on"/>
+         <Stroke code="VK_PAGE_DOWN" ctrl="on" meta="on"/>
+      </Action>
+      <Action id="find-selection">
+         <Stroke alt="on" code="VK_N" shift="on"/>
+         <Stroke code="VK_N" meta="on" shift="on"/>
+         <Stroke alt="on" code="VK_DOWN" shift="on"/>
+         <Stroke code="VK_DOWN" meta="on" shift="on"/>
+         <Stroke alt="on" code="VK_KP_DOWN" shift="on"/>
+         <Stroke code="VK_KP_DOWN" meta="on" shift="on"/>
+      </Action>
+      <Action id="go-until-cursor">
+         <Stroke code="VK_NUMPAD3"/>
+      </Action>
+      <Action id="find-and-replace">
+         <Stroke code="VK_H" ctrl="on"/>
+         <Stroke code="VK_F" ctrl="on"/>
+      </Action>
+      <Action id="selection-up">
+         <Stroke code="VK_UP" shift="on"/>
+         <Stroke code="VK_KP_UP" shift="on"/>
+         <Stroke alt="on" code="VK_W" shift="on"/>
+         <Stroke code="VK_W" meta="on" shift="on"/>
+      </Action>
+      <Action id="collapse-all-folds">
+         <Stroke alt="on" code="VK_PERIOD" ctrl="on"/>
+         <Stroke code="VK_PERIOD" ctrl="on" meta="on"/>
+         <Stroke alt="on" code="VK_LEFT" shift="on"/>
+         <Stroke code="VK_LEFT" meta="on" shift="on"/>
+         <Stroke alt="on" code="VK_KP_LEFT" shift="on"/>
+         <Stroke code="VK_KP_LEFT" meta="on" shift="on"/>
+      </Action>
+      <Action id="selection-backward">
+         <Stroke code="VK_LEFT" shift="on"/>
+         <Stroke code="VK_KP_LEFT" shift="on"/>
+         <Stroke alt="on" code="VK_A" shift="on"/>
+         <Stroke code="VK_A" meta="on" shift="on"/>
+      </Action>
+      <Action id="unselect">
+         <Stroke code="VK_ESCAPE"/>
+      </Action>
+      <Action id="maximize">
+         <Stroke code="VK_X" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="collapse-fold">
+         <Stroke code="VK_PERIOD" ctrl="on"/>
+         <Stroke alt="on" code="VK_LEFT"/>
+         <Stroke code="VK_LEFT" meta="on"/>
+         <Stroke alt="on" code="VK_KP_LEFT"/>
+         <Stroke code="VK_KP_LEFT" meta="on"/>
+      </Action>
+      <Action id="set-clear-breakpoint">
+         <Stroke code="VK_F12"/>
+         <Stroke code="VK_B" ctrl="on"/>
+         <Stroke code="VK_NUMPAD5"/>
+      </Action>
+      <Action id="find-previous">
+         <Stroke code="VK_F3" shift="on"/>
+         <Stroke alt="on" code="VK_P"/>
+         <Stroke code="VK_P" meta="on"/>
+         <Stroke alt="on" code="VK_UP"/>
+         <Stroke code="VK_UP" meta="on"/>
+         <Stroke alt="on" code="VK_KP_UP"/>
+         <Stroke code="VK_KP_UP" meta="on"/>
+      </Action>
+      <Action id="prev-cell">
+         <Stroke alt="on" code="VK_PAGE_UP"/>
+         <Stroke code="VK_PAGE_UP" meta="on"/>
+      </Action>
+      <Action id="find-next">
+         <Stroke code="VK_F3"/>
+         <Stroke alt="on" code="VK_N"/>
+         <Stroke code="VK_N" meta="on"/>
+         <Stroke alt="on" code="VK_DOWN"/>
+         <Stroke code="VK_DOWN" meta="on"/>
+         <Stroke alt="on" code="VK_KP_DOWN"/>
+         <Stroke code="VK_KP_DOWN" meta="on"/>
+      </Action>
+      <Action id="selection-forward">
+         <Stroke code="VK_RIGHT" shift="on"/>
+         <Stroke code="VK_KP_RIGHT" shift="on"/>
+         <Stroke alt="on" code="VK_D" shift="on"/>
+         <Stroke code="VK_D" meta="on" shift="on"/>
+      </Action>
+      <Action id="toggle-graphical-debugging">
+         <Stroke code="VK_DEAD_CIRCUMFLEX" ctrl="on"/>
+         <Stroke code="VK_ADD"/>
+      </Action>
+      <Action id="caret-begin-line">
+         <Stroke code="VK_HOME"/>
+         <Stroke alt="on" code="VK_W" ctrl="on"/>
+         <Stroke code="VK_W" ctrl="on" meta="on"/>
+         <Stroke code="VK_UP" ctrl="on"/>
+         <Stroke code="VK_KP_UP" ctrl="on"/>
+      </Action>
+      <Action id="next-cell">
+         <Stroke alt="on" code="VK_PAGE_DOWN"/>
+         <Stroke code="VK_PAGE_DOWN" meta="on"/>
+      </Action>
+      <Action id="expand-all-folds">
+         <Stroke alt="on" code="VK_PERIOD" ctrl="on" shift="on"/>
+         <Stroke code="VK_PERIOD" ctrl="on" meta="on" shift="on"/>
+         <Stroke alt="on" code="VK_RIGHT" shift="on"/>
+         <Stroke code="VK_RIGHT" meta="on" shift="on"/>
+         <Stroke alt="on" code="VK_KP_RIGHT" shift="on"/>
+         <Stroke code="VK_KP_RIGHT" meta="on" shift="on"/>
+      </Action>
+      <Action id="select-previous-tool"/>
+      <Action id="jump-list-next">
+         <Stroke alt="on" code="VK_PAGE_UP" ctrl="on"/>
+         <Stroke code="VK_PAGE_UP" ctrl="on" meta="on"/>
+      </Action>
+      <Action id="evaluate-selection">
+         <Stroke code="VK_F9"/>
+         <Stroke code="VK_E" ctrl="on"/>
+      </Action>
+      <Action id="find-previous-selection">
+         <Stroke alt="on" code="VK_P" shift="on"/>
+         <Stroke code="VK_P" meta="on" shift="on"/>
+         <Stroke alt="on" code="VK_UP" shift="on"/>
+         <Stroke code="VK_UP" meta="on" shift="on"/>
+         <Stroke alt="on" code="VK_KP_UP" shift="on"/>
+         <Stroke code="VK_KP_UP" meta="on" shift="on"/>
+      </Action>
+      <Action id="selection-end-line">
+         <Stroke code="VK_END" shift="on"/>
+         <Stroke alt="on" code="VK_S" ctrl="on" shift="on"/>
+         <Stroke code="VK_S" ctrl="on" meta="on" shift="on"/>
+         <Stroke code="VK_DOWN" ctrl="on" shift="on"/>
+         <Stroke code="VK_KP_DOWN" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="scroll-down"/>
+      <Action id="find-files"/>
+      <Action id="redo">
+         <Stroke code="VK_Y" ctrl="on"/>
+         <Stroke code="VK_Z" ctrl="on" shift="on"/>
+         <Stroke alt="on" code="VK_BACK_SPACE" shift="on"/>
+         <Stroke code="VK_BACK_SPACE" meta="on" shift="on"/>
+         <Stroke code="VK_LESS" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="open-selection">
+         <Stroke code="VK_O" ctrl="on"/>
+         <Stroke code="VK_D" ctrl="on"/>
+      </Action>
+      <Action id="open-new">
+         <Stroke code="VK_O" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="selection-begin-line">
+         <Stroke code="VK_HOME" shift="on"/>
+         <Stroke alt="on" code="VK_W" ctrl="on" shift="on"/>
+         <Stroke code="VK_W" ctrl="on" meta="on" shift="on"/>
+         <Stroke code="VK_UP" ctrl="on" shift="on"/>
+         <Stroke code="VK_KP_UP" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="selection-down">
+         <Stroke code="VK_DOWN" shift="on"/>
+         <Stroke code="VK_KP_DOWN" shift="on"/>
+         <Stroke alt="on" code="VK_S" shift="on"/>
+         <Stroke code="VK_S" meta="on" shift="on"/>
+      </Action>
+      <Action id="toggle-bookmark"/>
+      <Action id="clear-all-breakpoints">
+         <Stroke code="VK_B" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="next-message">
+         <Stroke alt="on" code="VK_PAGE_DOWN" shift="on"/>
+         <Stroke code="VK_PAGE_DOWN" meta="on" shift="on"/>
+      </Action>
+      <Action id="save-workspace"/>
+      <Action id="select-previous-tab">
+         <Stroke code="VK_PAGE_UP" ctrl="on"/>
+         <Stroke code="VK_TAB" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="debug-step-in">
+         <Stroke code="VK_F11"/>
+         <Stroke code="VK_NUMPAD2"/>
+      </Action>
+      <Action id="select-next-tab">
+         <Stroke code="VK_PAGE_DOWN" ctrl="on"/>
+         <Stroke code="VK_TAB" ctrl="on"/>
+      </Action>
+      <Action id="clear-text-at-prompt">
+         <Stroke code="VK_U" ctrl="on"/>
+         <Stroke code="VK_BACK_SPACE" ctrl="on"/>
+         <Stroke code="VK_ESCAPE"/>
+      </Action>
+      <Action id="close-item">
+         <Stroke code="VK_W" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="caret-next-word">
+         <Stroke code="VK_RIGHT" ctrl="on"/>
+         <Stroke code="VK_KP_RIGHT" ctrl="on"/>
+         <Stroke alt="on" code="VK_D" ctrl="on"/>
+         <Stroke code="VK_D" ctrl="on" meta="on"/>
+      </Action>
+      <Action id="previous-message">
+         <Stroke alt="on" code="VK_PAGE_UP" shift="on"/>
+         <Stroke code="VK_PAGE_UP" meta="on" shift="on"/>
+      </Action>
+      <Action id="split-screen-switch-focus">
+         <Stroke code="VK_PAGE_UP" ctrl="on" shift="on"/>
+         <Stroke code="VK_PAGE_DOWN" ctrl="on" shift="on"/>
+      </Action>
+      <Action id="caret-backward">
+         <Stroke code="VK_LEFT"/>
+         <Stroke code="VK_KP_LEFT"/>
+         <Stroke alt="on" code="VK_A"/>
+         <Stroke code="VK_A" meta="on"/>
+      </Action>
+      <Action id="caret-previous-word">
+         <Stroke code="VK_LEFT" ctrl="on"/>
+         <Stroke code="VK_KP_LEFT" ctrl="on"/>
+         <Stroke alt="on" code="VK_A" ctrl="on"/>
+         <Stroke code="VK_A" ctrl="on" meta="on"/>
+      </Action>
+      <Action id="selection-previous-word">
+         <Stroke code="VK_LEFT" ctrl="on" shift="on"/>
+         <Stroke code="VK_KP_LEFT" ctrl="on" shift="on"/>
+         <Stroke alt="on" code="VK_A" ctrl="on" shift="on"/>
+         <Stroke code="VK_A" ctrl="on" meta="on" shift="on"/>
+      </Action>
+      <Action id="minimize">
+         <Stroke code="VK_M" ctrl="on" shift="on"/>
+         <Stroke code="VK_ESCAPE"/>
+      </Action>
+      <Action id="undo">
+         <Stroke code="VK_Z" ctrl="on"/>
+         <Stroke code="VK_LESS" ctrl="on"/>
+      </Action>
+      <Action id="exit-debug">
+         <Stroke code="VK_Q" ctrl="on"/>
+         <Stroke code="VK_F5" shift="on"/>
+         <Stroke code="VK_MULTIPLY"/>
+      </Action>
+      <Action id="expand-fold">
+         <Stroke code="VK_PERIOD" ctrl="on" shift="on"/>
+         <Stroke alt="on" code="VK_RIGHT"/>
+         <Stroke code="VK_RIGHT" meta="on"/>
+         <Stroke alt="on" code="VK_KP_RIGHT"/>
+         <Stroke code="VK_KP_RIGHT" meta="on"/>
+      </Action>
+      <Action id="selection-next-word">
+         <Stroke code="VK_RIGHT" ctrl="on" shift="on"/>
+         <Stroke code="VK_KP_RIGHT" ctrl="on" shift="on"/>
+         <Stroke alt="on" code="VK_D" ctrl="on" shift="on"/>
+         <Stroke code="VK_D" ctrl="on" meta="on" shift="on"/>
+      </Action>
+      <Action id="debug-step">
+         <Stroke code="VK_F10"/>
+         <Stroke code="VK_NUMPAD1"/>
+      </Action>
+      <Action id="select-next-tool"/>
+      <Action id="debug-continue">
+         <Stroke code="VK_F5"/>
+         <Stroke code="VK_NUMPAD6"/>
+      </Action>
+      <Action id="scroll-up"/>
+      <Action id="exit-matlab"/>
+      <Action id="caret-forward">
+         <Stroke code="VK_RIGHT"/>
+         <Stroke code="VK_KP_RIGHT"/>
+         <Stroke alt="on" code="VK_D"/>
+         <Stroke code="VK_D" meta="on"/>
+      </Action>
+      <Action id="expand-all">
+         <Stroke alt="on" code="VK_PERIOD" ctrl="on" shift="on"/>
+         <Stroke code="VK_PERIOD" ctrl="on" meta="on" shift="on"/>
+      </Action>
+      <Action id="debug-step-out">
+         <Stroke code="VK_F11" shift="on"/>
+         <Stroke code="VK_NUMPAD8"/>
+      </Action>
+   </Context>
+   <Context id="Explorer">
+      <Action id="jump-list-next"/>
+      <Action id="jump-list-prev"/>
+      <Action id="open-selection"/>
+   </Context>
+   <Context id="CommandWindow">
+      <Action id="caret-end-line"/>
+      <Action id="clear-text-at-prompt"/>
+      <Action follows="None" id="caret-up">
+         <Stroke alt="on" code="VK_W"/>
+         <Stroke code="VK_W" meta="on"/>
+      </Action>
+      <Action id="caret-backward"/>
+      <Action follows="None" id="caret-down">
+         <Stroke alt="on" code="VK_S"/>
+         <Stroke code="VK_S" meta="on"/>
+      </Action>
+      <Action follows="None" id="unselect"/>
+   </Context>
+   <Context id="Project">
+      <Action id="open-selection"/>
+   </Context>
+   <Context id="MATLABEditor">
+      <Action id="jump-list-next"/>
+      <Action id="jump-list-prev"/>
+      <Action id="caret-up">
+         <Stroke alt="on" code="VK_W"/>
+         <Stroke code="VK_W" meta="on"/>
+      </Action>
+      <Action id="caret-down">
+         <Stroke alt="on" code="VK_S"/>
+         <Stroke code="VK_S" meta="on"/>
+      </Action>
+   </Context>
+</CustomKeySet>

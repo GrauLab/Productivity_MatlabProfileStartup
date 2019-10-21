@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout CurrentFolderBarBelow="yes">
+   <Version Major="3" Minor="1"/>
+   <Frame StatusBarShowing="yes" TitlesShowing="yes" ToolstripCollapsed="yes">
+      <ToolBars>
+         <ToolBar Label="Current Folder" Name="Current DirectoryToolBar" Showing="yes"/>
+      </ToolBars>
+      <Location External="yes" Height="744" Type="floating" Width="1521" X="403" Y="11"/>
+      <Borders>
+         <Left>
+            <View Name="Current Directory" Title="Current Folder"/>
+            <View Name="Workspace" Title="Workspace"/>
+            <View Name="Job Monitor" Title="Job Monitor"/>
+         </Left>
+      </Borders>
+      <Group Name="Editor" Title="Editor"/>
+      <QuickAccessLocation Region="right_of_tabs"/>
+   </Frame>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="yes" Dock="yes" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" SelectionOrder="38" Show="yes" ShowViews="no" Title="Editor">
+      <Location Context="docked" Height="631" ParentHeight="631" ParentWidth="1494" Path="" Type="nested" Width="1494" X="422" Y="87"/>
+      <Location Context="nested" Height="631" ParentHeight="631" ParentWidth="1494" Path="" Type="nested" Width="1494" X="422" Y="87"/>
+      <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="486" Type="floating" Width="1659" X="261" Y="31"/>
+      <Location Context="document" Maximized="yes" Type="floating"/>
+      <Frame StatusBarShowing="yes" TitlesShowing="yes" ToolstripCollapsed="yes">
+         <Location EntirelyVisible="yes" External="yes" Height="486" Type="floating" Width="1659" X="261" Y="31"/>
+         <QuickAccessLocation Region="right_of_tabs"/>
+      </Frame>
+      <DocumentArea Arrangement="maximized" Bar="left" Empty="no" MaxBarWidth="206" Showing="yes" ShrinkTabs="no"/>
+   </Group>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Figures" PropertyClass="com.mathworks.hg.peer.FiguresGroup" Show="no" ShowViews="no" Title="Figures">
+      <Location Context="document" EntirelyVisible="yes" External="yes" Height="508" Type="floating" Width="568" X="675" Y="19"/>
+      <Split Orientation="topBottom" Position="0.667">
+         <Split Orientation="leftRight" Position="0.25">
+            <View Name="Figure Palette" Title=""/>
+            <Split Orientation="leftRight" Position="0.667">
+               <Documents Name="Figures" Title=""/>
+               <View Name="Plot Browser" Title=""/>
+            </Split>
+         </Split>
+         <View Name="Property Editor" Title=""/>
+      </Split>
+   </Group>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Web Browser" PropertyClass="com.mathworks.mde.webbrowser.WebBrowserGroup" Show="no" ShowViews="no" Title="Web Browser">
+      <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="1011" Type="floating" Width="1074" X="55" Y="26"/>
+      <Location Context="document" Type="floating"/>
+      <Frame StatusBarShowing="yes" TitlesShowing="yes">
+         <Location EntirelyVisible="yes" External="yes" Height="1011" Type="floating" Width="1074" X="55" Y="26"/>
+      </Frame>
+      <DocumentArea Arrangement="maximized" Bar="top" Empty="yes" MaxBarWidth="240" Showing="no" ShrinkTabs="no"/>
+   </Group>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Array Editor" Show="no" ShowViews="no" Title="Variables">
+      <Location Context="docked" Edge="left" Height="683" Type="border" Width="1515"/>
+      <Location Context="nested" Height="666" ParentHeight="685" ParentWidth="1565" Path="T" TabIndex="1" Type="nested" Width="1565" X="290" Y="104">
+         <ReferenceHierarchy>
+            <Tabbed Placement="bottom" Selected="1">
+               <Group Name="Editor" Title="Editor"/>
+               <Group Name="Array Editor" Title="Variables"/>
+            </Tabbed>
+         </ReferenceHierarchy>
+      </Location>
+      <Location Context="document" Type="floating"/>
+      <DocumentArea Arrangement="maximized" Bar="left" Empty="yes" MaxBarWidth="240" Showing="no" ShrinkTabs="no"/>
+   </Group>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="File Comparisons" PropertyClass="com.mathworks.comparisons.report.ComparisonReportGroup" Show="no" ShowViews="no" Title="Comparison">
+      <Location Context="docked" Height="634" ParentHeight="654" ParentWidth="1502" Path="T" TabIndex="1" Type="nested" Width="1502" X="416" Y="160">
+         <ReferenceHierarchy>
+            <Tabbed Placement="bottom" Selected="1">
+               <Group Name="Editor" Title="Editor"/>
+               <Group Name="File Comparisons" Title="Comparison"/>
+            </Tabbed>
+         </ReferenceHierarchy>
+      </Location>
+      <Location Context="nested" Height="634" ParentHeight="654" ParentWidth="1502" Path="T" TabIndex="1" Type="nested" Width="1502" X="416" Y="160">
+         <ReferenceHierarchy>
+            <Tabbed Placement="bottom" Selected="1">
+               <Group Name="Editor" Title="Editor"/>
+               <Group Name="File Comparisons" Title="Comparison"/>
+            </Tabbed>
+         </ReferenceHierarchy>
+      </Location>
+      <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="783" Type="floating" Width="1607" X="5" Y="254"/>
+      <Location Context="document" Type="floating"/>
+      <Frame StatusBarShowing="yes" TitlesShowing="yes" ToolstripCollapsed="yes">
+         <Location EntirelyVisible="yes" External="yes" Height="783" Type="floating" Width="1607" X="5" Y="254"/>
+         <QuickAccessLocation Region="right_of_tabs"/>
+      </Frame>
+      <DocumentArea Arrangement="maximized" Bar="top" Empty="no" MaxBarWidth="240" Showing="no" ShrinkTabs="no"/>
+   </Group>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Doc Center" PropertyClass="com.mathworks.mde.help.MLHelpBrowserGroup" Show="yes" ShowViews="no" Title="Help">
+      <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="691" Type="floating" Width="1517" X="178" Y="29"/>
+      <Location Context="document" Maximized="yes" Type="floating"/>
+      <Frame StatusBarShowing="yes" TitlesShowing="yes">
+         <Location EntirelyVisible="yes" External="yes" Height="691" Type="floating" Width="1517" X="178" Y="29"/>
+      </Frame>
+      <DocumentArea Arrangement="maximized" Bar="left" Empty="yes" MaxBarWidth="240" Showing="no" ShrinkTabs="yes"/>
+   </Group>
+   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="no" Guest="no" Name="Command Window" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Command Window">
+      <Location Context="docked" Height="685" ParentHeight="685" ParentWidth="1565" Path="W" Type="nested" Width="520" X="290" Y="85">
+         <ReferenceHierarchy>
+            <Split Orientation="leftRight" Position="520">
+               <View Name="Command Window" Title="Command Window"/>
+               <Group Name="Editor" Title="Editor"/>
+            </Split>
+         </ReferenceHierarchy>
+      </Location>
+      <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="701" Type="floating" Width="1746" X="46" Y="73"/>
+      <Location Context="nested" Height="685" ParentHeight="685" ParentWidth="1565" Path="W" Type="nested" Width="520" X="290" Y="85">
+         <ReferenceHierarchy>
+            <Split Orientation="leftRight" Position="520">
+               <View Name="Command Window" Title="Command Window"/>
+               <Group Name="Editor" Title="Editor"/>
+            </Split>
+         </ReferenceHierarchy>
+      </Location>
+   </Client>
+   <Client Class="com.mathworks.mde.cmdhist.AltHistory" Dock="no" Guest="no" Name="Command History" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="yes" Title="Command History">
+      <Location Context="docked" Path="EES" Type="nested"/>
+      <Location Anchored="yes" Context="undocked" External="yes" Height="425" Type="floating" Width="786" X="47" Y="292"/>
+   </Client>
+   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="12" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Current Folder">
+      <Location Context="docked" Edge="left" Height="631" Type="border" Width="660"/>
+      <Location Context="nested" Height="680" ParentHeight="680" ParentWidth="1616" Path="W" Type="nested" Width="660" X="300" Y="113">
+         <ReferenceHierarchy>
+            <Split Orientation="leftRight" Position="660">
+               <View Name="Current Directory" Title="Current Folder"/>
+               <Group Name="Editor" Title="Editor"/>
+            </Split>
+         </ReferenceHierarchy>
+      </Location>
+   </Client>
+   <Client Class="com.mathworks.mde.workspace.WorkspaceBrowser" Dock="yes" Guest="no" Name="Workspace" SelectionOrder="11" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Workspace">
+      <Location Context="docked" Edge="left" Height="631" Type="border" Width="1253"/>
+      <Location Context="nested" Height="728" ParentHeight="728" ParentWidth="1517" Path="" Type="nested" Width="1517" X="401" Y="218">
+         <ReferenceHierarchy>
+            <View Name="Workspace" Title="Workspace"/>
+         </ReferenceHierarchy>
+      </Location>
+   </Client>
+   <Client Class="com.mathworks.mde.profiler.Profiler" Dock="no" Guest="no" Name="Profiler" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Profiler">
+      <Location Context="docked" Edge="bottom" Height="387" Type="border" Width="1431"/>
+      <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="719" Type="floating" Width="1391" X="190" Y="61"/>
+      <Location Context="nested" Height="296" ParentHeight="899" ParentWidth="1431" Path="S" Type="nested" Width="1431" X="486" Y="713">
+         <ReferenceHierarchy>
+            <Split Orientation="topBottom" Position="599">
+               <Group Name="Editor" Title="Editor"/>
+               <View Name="Profiler" Title="Profiler"/>
+            </Split>
+         </ReferenceHierarchy>
+      </Location>
+   </Client>
+   <Client Class="com.mathworks.webintegration.fileexchange.ui.FileExchangeDesktopClientImpl" Dock="yes" Guest="no" Name="File Exchange" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="File Exchange">
+      <Location Context="docked" Path="EWN" Type="nested"/>
+      <Location Context="undocked" External="yes" Height="600" Type="floating" Width="800"/>
+   </Client>
+   <Client Class="com.mathworks.toolbox.distcomp.ui.desk.JobMonitorDesktopClient" Dock="yes" Guest="no" Name="Job Monitor" SelectionOrder="16" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Job Monitor">
+      <Location Context="docked" Edge="left" Height="631" Type="border" Width="1088"/>
+      <Location Context="undocked" External="yes" Height="720" Type="floating" Width="1280" X="246" Y="384"/>
+      <Location Context="nested" Height="633" ParentHeight="633" ParentWidth="1494" Path="W" Type="nested" Width="1088" X="422" Y="85">
+         <ReferenceHierarchy>
+            <Split Orientation="leftRight" Position="1088">
+               <View Name="Job Monitor" Title="Job Monitor"/>
+               <Group Name="Editor" Title="Editor"/>
+            </Split>
+         </ReferenceHierarchy>
+      </Location>
+   </Client>
+   <Client Class="com.mathworks.page.plottool.FigurePalette" Dock="yes" Group="Figures" Guest="no" Name="Figure Palette" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Figure Palette">
+      <Location Context="docked" Path="NW" Type="nested"/>
+   </Client>
+   <Client Class="com.mathworks.page.plottool.PlotBrowser" Dock="yes" Group="Figures" Guest="no" Name="Plot Browser" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Plot Browser">
+      <Location Context="docked" Path="NEE" Type="nested"/>
+   </Client>
+   <Client Class="com.mathworks.page.plottool.PropertyEditor" Dock="yes" Group="Figures" Guest="no" Name="Property Editor" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Property Editor">
+      <Location Context="docked" Path="S" Type="nested"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="26" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/getSeqComputingContext.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/getSeqComputingContext.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="28" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/getSeqProjectConfig.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/getSeqProjectConfig.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="29" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/prepareSeqComputingEnvironment.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/prepareSeqComputingEnvironment.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="30" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/seqInitializeSubjectInfosFromAvailableFASTQgzFilesAndConfig.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/seqInitializeSubjectInfosFromAvailableFASTQgzFilesAndConfig.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="31" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/forRecovery_seqInitializeSubjectInfosFromAvailableFASTQgzFilesAndConfig.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/forRecovery_seqInitializeSubjectInfosFromAvailableFASTQgzFilesAndConfig.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="34" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/analyzeSeqProject.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/analyzeSeqProject.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="32" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/seqAlignmentJob.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/seqAlignmentJob.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="27" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/C=Bio Interpretation/goOverrepresentationAnalysis.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/C=Bio Interpretation/goOverrepresentationAnalysis.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="24" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/exportSeqProjectResultsToExcel.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/exportSeqProjectResultsToExcel.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="25" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B1b=GEP data specific/analyzeIlluminaArrays.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B1b=GEP data specific/analyzeIlluminaArrays.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="23" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B1b=GEP data specific/differentialityAnalysis.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B1b=GEP data specific/differentialityAnalysis.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="33" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/seqVariantFilteringAndVariantCenterAnnotation.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/seqVariantFilteringAndVariantCenterAnnotation.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="22" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/importRunsFromBaseSpace.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/importRunsFromBaseSpace.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="21" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Coding/Basic Tools/helperBuildCommandLine.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Coding/Basic Tools/helperBuildCommandLine.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="37" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/fixHISAT2BAM_rescueMultimappedReads4variantDiscovery.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/fixHISAT2BAM_rescueMultimappedReads4variantDiscovery.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="38" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/variantDiscoveryByMuTectJob.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Analysis/B3=DNA and RNA Seq/variantDiscoveryByMuTectJob.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="39" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Coding/Export Tools/helperRedundancyFreeDisplayNameCombination.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/mnt/mg/D/(Eigene Daten) permanent offen/(permanent offen) Matlab Analysis Tools/MIC Coding/Export Tools/helperRedundancyFreeDisplayNameCombination.m"/>
+   </Client>
+</Layout>
