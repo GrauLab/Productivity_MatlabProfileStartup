@@ -36,6 +36,12 @@ Maltab profiles for Windows and Linux optimized for code overview and coding pro
 - un/comment multiple lines:
   - `Ctrl+R`: comment selected lines
   - `Ctrl+T`: uncomment selected lines
+- debugging and related:
+  - `Ctrl+B`: set/remove debugging breakpoint (red dot) fr the current code line
+  - `Ctrl+D`: open defining file of function/class under cursor
+  - `F11`: debugging/step into function called in this line (if any; i.e. one level deeper in the stack)
+  - `Shift+F11`: debugging/step out (one stack level up, back to calling line of code)
+  - `F10`: debugging/step over (execute current line completey including any subfunction calls, unless the contain defined breakpoints)
 - diverse:
   - `Ctrl+Shift+W`: Close current file.
   - `Ctrl+Q`: disabled to prevent accidential usage (closes Matlab usually; also enabled the "do you really want to close Matlab" confirmation dialog againt accidental close commands).
