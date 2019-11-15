@@ -50,13 +50,14 @@ Maltab profiles for Windows and Linux optimized for code overview and coding pro
 ## Installation steps
 - Download and extract the release ZIP for Windows or Linux into a temporary directory.
 - Install the `profileStartup` tool:
-  - If you do not yet have one, create a `libRootFolder` for your own development and libraries.
-  - move the `ZIP\profileStartup` folder into your `libRootFolder`.
-  - If not yet done, install Matlab as usual. Launch Matlab with the default profile as usual. 
-  - Add the `profileStartup` subfolder in your `libRootFolder` to your Matlab library path via the "Home ribbon/Environment section/Set path button". Save your paths. If you don't have access rights to edit the global Matlab library paths, see the `startup.m` workaround in troubleshooting below.
+  - If you do not have one, yet, create a `libRootFolder` for your own development and libraries.
+  - Move the `ZIP\profileStartup` folder into your `libRootFolder`.
+  - If not yet done, install Matlab as usual. Launch Matlab as usual (i.e. using the default profile).
+  - In Matlab, add the `profileStartup` subfolder in your `libRootFolder` to your library path via the "Home ribbon/Environment section/Set path button". Save your paths. If you don't have access rights to edit the global Matlab library paths, see the `startup.m` workaround in details below.
 - Move Matlab profile stubs to their target location:
   - In Windows, the default location for Matlab profiles is in `%AppData%\MathWorks\MATLAB`, e.g. `C:\Users\MG\AppData\Roaming\MathWorks\MATLAB\primary`. Move the folders `primary`, `secondary` and `tertiary` containing settings files there.
   - In Linux, you may use any folder you wish, as long as your user account has full read/write access there.
+  - Linux-only step: Matlab profiles in Linux contain a Chromium browser used for browsing the Matlab docu. As they are version-dependent (and relatively large), I do not include them in profile releases. If Matlab does not automatically do this for you and/or if you have problems viewing the Matlab docu in Ubuntu, browse to your delault profile at `~/.matlab` and copy the sub folders `LightweightBrowser` und `HtmlPanel` from there into your `primary`, `secondary` and `tertiary` profile folders. Then relaunch Matlab.
 - Adapt paths in launcher scripts to your installation:
   - Open the launch scripts (like `startMatlabDirect_primaryProfile.BAT` or `startMatlabDirect_primaryProfile.sh`).
   - Adapt the path set for the `MATLAB_PREFDIR` environment variable accordingly.
@@ -65,6 +66,7 @@ Maltab profiles for Windows and Linux optimized for code overview and coding pro
 - Launch Matlab via the launcher script.
   - `profileStartup` should be the first command executed after the Matlab engine (and possibly `startup.m`) has loaded. 
   - Open the editor via `edit` in the console, if it is not open, yet. You may want to test and get used to keyboard shortcuts.
+  
 - To get individual task bar launcher icons with profile-specific grouping of windows in Windows, continue with Create launch icons below.
 - To avoid interference between profiles for parallel background jobs, create/configure separate  `JobStorageLocation`s. ("Home ribbon/Environment section/Parallel.../Create and Manage Clusters". Then edit the local profile and adapt the path in the `JobStorageLocation` field.)
 - If you get a UTF-8 warning, configure your editor encoding as described below in details.
